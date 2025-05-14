@@ -16,7 +16,7 @@ This project dives deep into **Spotify streaming history** using **PostgreSQL**,
 
 ## 📂 Dataset Description
 
-- **Table Used**: `spotify_tracks`
+- **Table Used**: `spotify_history.csv`
 - **Source**: Exported CSV file from [Spotify’s Streaming History](https://www.spotify.com/us/account/privacy/)
 - **Imported using**: `COPY` command in PostgreSQL
 - **Preprocessing**:
@@ -47,7 +47,7 @@ Here’s a breakdown of key analytical queries and insights:
 ## 🛠 Tech Stack
 
 - **SQL Flavor**: PostgreSQL
-- **Platform**: macOS (locally via pgAdmin & Beekeeper Studio)
+- **Platform**: macOS (locally via pgAdmin 4)
 - **Tools Used**: pgAdmin, SQL Formatter, Excel (for EDA planning)
 
 ---
